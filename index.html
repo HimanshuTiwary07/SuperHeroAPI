@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>SuperHero</title>
+    <!-- google font && fontawesome -->
+    <script src="https://kit.fontawesome.com/d04f3c9245.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!------fav button ---- -->
+    <a href="./fav.html">Favourites</a>
+     <!------ Search Section ------>
+    <main class="main">
+        <div id="input">
+            <input type="search" id="search" placeholder="Search" autocomplete="on" required>
+        </div>
+    <!-- ---- to display loding ---- -->
+        <div class="loader"></div>
+
+        <ul id="search-result-list">
+           <!--Our search result will show here-->
+        </ul>
+    </main>
+   <!--js file required-->
+    <script src="./js/essential.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script>
+        Main.init();
+    </script>
+</body>
+</html>

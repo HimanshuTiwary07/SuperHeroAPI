@@ -1,0 +1,139 @@
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin-left: 45%;
+    padding: 2px;
+}
+
+/* ---- Search Input ---- */
+.main{
+    position: relative;
+    margin-top: 20px;
+}
+
+
+#search{
+    margin-left: 28%;
+    height: 30px;
+    width: 45%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#submit{
+    height: 30px;
+}
+
+
+/* ---- display results ---- */
+#search-result-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 15%;
+    justify-content: space-evenly;
+}
+.search-result{
+    width: 930px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border: 1px solid;
+    padding: 3px;
+    background-color: #122
+}
+.search-left img{
+    height: 100%;
+}
+.search-right {
+  padding-left: 40px;
+    margin-left: 500px;
+        align-content: space-between;
+  padding-top: 0px;
+  position: relative;
+}
+
+.search-right a:hover {
+    color: red;
+    text-decoration-color: blueviolet;
+}
+
+.name{ 
+    font-size: 25px;
+    color: olivedrab;
+}
+
+.full-name{
+    color:yellow;
+    font-size: 20px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .add-to-fav {
+    margin-top: 20px;
+    background: #b14
+  }
+  .remove-from-fav {
+    margin-top: 20px;
+    background: #f44336;
+  }
+
+  /* ----  Notification ---- */
+  #toast {
+    position: fixed;
+    top: 65px;
+    right: 15px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+  .toast-error {
+    background: red;
+  }
+  .toast-success {
+    background: rgb(34, 0, 128);
+  }
+
+  .not-found {
+    background:red;
+    color: black;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+
+
+  /* ----- loader ---- */
+.loader {
+  border: 10px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: yellow transparent transparent;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: none;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

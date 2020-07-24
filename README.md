@@ -21,8 +21,8 @@ C:.
 │    
         <br>
 └───js
-        essential.js
-        fav.js
-        herodetails.js
-        index.js  
+|        essential.js
+|       fav.js
+|       herodetails.js
+|       index.js  
   </p>

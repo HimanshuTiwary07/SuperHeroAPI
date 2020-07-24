@@ -14,14 +14,15 @@ C:.
 │   index.html
 │   tree.txt
 │   
+        <br>
 ├───css
 │       style.css
 │       Superhero.css
-│       
+│    
+        <br>
 └───js
         essential.js
         fav.js
         herodetails.js
-        index.js
-        
+        index.js  
   </p>

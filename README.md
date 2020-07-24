@@ -7,7 +7,7 @@ Basic HTML/CSS/JS page using SuperHeroApi, User can add/remove to favourites and
 
 
 Folder PATH listing
-Volume serial number is 40AF-99AC
+<p>
 C:.
 │   fav.html
 │   herodetails.html
@@ -23,3 +23,5 @@ C:.
         fav.js
         herodetails.js
         index.js
+        
+  </p>

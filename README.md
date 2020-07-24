@@ -8,20 +8,20 @@ Basic HTML/CSS/JS page using SuperHeroApi, User can add/remove to favourites and
 
 Folder PATH listing
 <p>
-C:.
-│   fav.html
+C:
+=>   fav.html
 │   herodetails.html
 │   index.html
 │   tree.txt
 │   
         <br>
 ├───css
-│       style.css
+=>      style.css
 │       Superhero.css
 │    
         <br>
 └───js
-|        essential.js
+=>       essential.js
 |       fav.js
 |       herodetails.js
 |       index.js  
